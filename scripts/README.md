@@ -1,6 +1,6 @@
 # Scripts
 
-Tools included in this repository (educational / defensive use only).
+Tools included in this repository (educational / defensive use only). Maintained by #napster.
 
 ## jws_viewer.py — StoreKit 2 Transaction JWS Viewer
 
@@ -11,10 +11,10 @@ Parses and pretty-prints the payload of a StoreKit 2 transaction JWS token
 
 Viral "ChatGPT subscription bypass" tutorials tell readers to copy tokens and
 edit `app_user_id` / `offerName` / `salableAdamId` fields. Understanding the
-actual structure of the token is the first step in realizing:
+actual token structure is the first step to realizing:
 
-- the payload is signed (you cannot just edit fields)
-- the payload is validated server-side, not client-side
+- the payload is **signed** (you can't just edit fields)
+- the payload is validated **server-side**, not client-side
 - critical fields (`transactionId`, `bundleId`, `environment`, `expiresDate`)
   exist specifically to prevent replay and forgery
 

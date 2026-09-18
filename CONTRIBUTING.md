@@ -30,16 +30,15 @@ Any claim about how Apple / StoreKit / RevenueCat behaves **must** be backed by:
 2. A reproducible experiment, or
 3. A credible, cited industry source
 
-If you're not sure, mark it as **speculative** in the doc rather than stating it
-as fact. Misinformation is what we're fighting.
+If you're not sure, mark it as **speculative** rather than stating it as fact.
+Misinformation is what we're fighting.
 
 ## Process
 
 1. Open an issue describing the change, or comment on an existing one.
 2. Fork the repo, create a branch (`docs/`, `chore/`, `feat/` prefix).
-3. Make your change. Keep Chinese/English doc consistency (pick one per file and
-   head to it; mixed headers + English body is fine as long as it's readable).
-4. Open a pull request with a short description and check the `CONTRIBUTING.md` box.
+3. Make your change.
+4. Open a pull request with a short description.
 
 ## Security disclosures
 
@@ -58,8 +57,8 @@ This repo is for analysis and education, not for hosting 0-days.
 - Python 3.8+, standard library only
 - Keep scripts dependency-free where possible
 - `scripts/README.md` documents every script
-- Target ~80 col where reasonable; readability over cleverness
+- Target ~80 cols where reasonable; readability over cleverness
 
 ---
 
-*Last updated: 2026-09-18*
+*Maintained by #napster. Last updated: 2026-09-18.*
