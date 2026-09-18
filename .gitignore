@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Local env
+.env
+.env.*
+!*.env.example
+
+# Logs & scratch
+*.log
+scratch/
+tmp/
+
+# Sensitive / keys (never commit)
+*.pem
+*.key
+*.p12
+*.mobileprovision
